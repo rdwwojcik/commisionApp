@@ -78,8 +78,8 @@ public class MvcWebConfig extends WebMvcConfigurerAdapter {
                 "/js/**")
                 .addResourceLocations(
                         "classpath:static/images/",
-                        "classpath:resources/static/css/",
-                        "classpath:resources/static/js/");
+                        "classpath:static/css/",
+                        "classpath:static/js/");
     }
 
     //    @Bean
